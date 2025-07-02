@@ -10,6 +10,14 @@ For the R script for Fig. 2, ensure that both the code and the folders containin
 
 The names of the Python scripts begin with 'number_,' indicating the sequence of their execution. Each Python script is accompanied by a configuration file (*.config). Modify the lines in the configuration file to specify the full paths for both the input and output files.
 
+**Computational Reqs.**
+
+The Python scripts require Python 3 or later and the installation of the pandas package (https://pandas.pydata.org/).
+
+For the R scripts, refer to the lines in each code where different libraries are loaded. There are further instructions on requirements for running the code used to generate Fig. 2.
+
+
+
 
 
 
