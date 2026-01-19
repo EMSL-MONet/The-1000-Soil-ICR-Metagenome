@@ -13,7 +13,7 @@ All codes (Except Figure 3 and Supplementary Figure 2) was tested using the sett
 
 ## Instruction ##
 
-Download the codes from this repository and place them in a way such that the R code and the **Sample_Data** folder are in the same path. Please refer to the README for each codes to see the list of R libraries used.
+Download the codes from this repository and place them in a way such that the R code and the **Sample_Data** folder are in the same path. Please refer to the README in the **R_codes** folder to see the list of R libraries used.
 
 ## Description of the codes and the sample data ##
 
