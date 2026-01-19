@@ -85,6 +85,16 @@ The following is required for the code *Fig_5_upset_genus_CAZyme_distr_stacked_b
 - **1000_Soils_drep_MAGs_CAZy_cat_assign.tsv**: An upset plot is essentially a Venn diagram generated from overlapping different data sets. This overlap generates separate segments (e.g., unique in group A, present in all groups, etc). This table contains the assignments of the CAZyme families into one of these segments. 
 
 ### Required R library packages ###
+
+These libraries are required for the code *Fig_5_upset_genus.R*:
+
+- ComplexUpset
+- dbplyr
+- tidyverse
+- rstudioapi
+
+These libraries are required for the code *Fig_5_upset_genus_CAZyme_distr_stacked_bar.R*:
+
 - ggplot2
 - dplyr
 - rstudioapi
