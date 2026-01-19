@@ -73,9 +73,12 @@ The code generates a bubble chart that represents the distribution of the KEGG p
 The codes in this folder were used to generate an upset plot and a stacked bar chart representing the composition of the CAZyme families present in the archaeal and bacterial MAGs detected in the soils (Figure 5) and in the fungal contigs (Supplementary Figure 3). The output summary tables of the *dbCAN2* (Zhang et al., 2018; https://academic.oup.com/nar/article/46/W1/W95/4996582) were compiled into a single tab-separated file using a customized Python script.
 
 ### Required data (See Sample_Data) ###
+These files are required for the code *Fig_5_upset_genus.R* 
 - **1000_Soils_drep_MAGs_dbCAN_avg_genus.csv**: A CSV file the raw counts of CAZyme families detected across the soil types.  Customized Python scripts were used to extracti a set of CAZyme families that were detected in the archaeal and bacterial MAGs using two or more of the search methods present in the *dbCAN2*. The counts of these CAZyme families were then compiled together to generate this input CSV file.
 - **fungal_50pct_CAZy.csv**: Similar to the file described above, but for fungal contigs.
 - **metadata.csv**: A CSV file required for indexing purpose (used in the *upset* method).
+The following is required for the code *Fig_5_upset_genus_CAZyme_distr_stacked_bar.R*.
+- **1000_Soils_drep_MAGs_CAZy_cat_assign.tsv**: An upset plot is essentially a Venn diagram generated from overlapping different data sets. This overlap generates separate segments (e.g., unique in group A, present in all groups, etc). This table contains the assignments of the CAZyme families into one of these segments. 
 
 ### Required R library packages ###
 - ggplot2
