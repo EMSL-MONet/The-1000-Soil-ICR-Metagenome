@@ -17,6 +17,7 @@ library(dplyr)
 library(tidyverse)
 library(NOISeq)
 library(reshape2)
+library(rstudioapi)
 
 ### The next three lines sets the path to where the code is currently located
 this_path <- getActiveDocumentContext()$path
