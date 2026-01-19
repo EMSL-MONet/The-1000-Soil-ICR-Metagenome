@@ -11,7 +11,7 @@ The scripts in this folder were implemented to generate visualizations featured 
 
 All codes (Except Figure 3 and Supplementary Figure 2) was tested using the settings listed above and was completed within 3 minutes. The Spearman Correlation analyses implemented as part of the codes located in the **Figure_3_and_Suppl_Fig_2** folder was completed within 30 minutes.
 
-## Instructions ##
+## Instruction ##
 
 Download the codes from this repository and place them in a way such that the R code and the **Sample_Data** folder are in the same path. Please refer to the README for each codes to see the list of R libraries used.
 
