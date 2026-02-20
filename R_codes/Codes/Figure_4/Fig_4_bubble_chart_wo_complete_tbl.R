@@ -1,6 +1,6 @@
 ### Figure_4_bubble_chart_wo_complete_tbl.R
 ### By Young C. Song
-### This script generates heatmap and bar plots shown in Figure 4.
+### This script generates bubble and bar plots shown in Figure 4.
 ### Before running this code, run clusterProfiler.R to generate the input table.
 
 library(RColorBrewer)
